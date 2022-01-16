@@ -10081,13 +10081,15 @@ h3 {
   padding-right: 15px;
   border-radius: 100px;
   background-color: #ffffff45;
-  box-shadow: 3px 3px 3px #00000055;
+  box-shadow: 3px 3px 3px #00000025;
+  backdrop-filter: blur(10px);
 }
 
 .portfolio-transition {
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: rgba(100, 100, 100, 0.3);
+  backdrop-filter: blur(15px);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10242,10 +10244,16 @@ form .row:first-child .floating-label-form-group {
   padding: 20px;
   background-color: #ffffff13;
   border-radius: 20px;
+  backdrop-filter: blur(50px);
 }
 
 .circle {
   padding: 10px;
   background-color: #74b9ff5f;
   border-radius: 1000px;
+}
+
+.oppacity {
+  background-color: #74b9ffc9 !important;
+  backdrop-filter: blur(5px);
 }
