@@ -10047,14 +10047,49 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@font-face {
+  font-family: 'CookieRunOTF-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.portfolio-title {
+  font-family: 'CookieRunOTF-Bold';
+  font-size: 35px !important;
+  text-shadow: 3px 3px 3px #00000055;
+  padding-bottom: 10px;
+}
+
+.portfolio-subtitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px !important;
+  text-shadow: 3px 3px 3px #00000055;
+}
+
+.portfolio-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+  background-color: #ffffff45;
+  box-shadow: 3px 3px 3px #00000055;
+}
+
+.portfolio-transition {
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(156, 195, 213, 0.9);
+  background-color: rgba(100, 100, 100, 0.5);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
@@ -10066,6 +10101,7 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
